@@ -1,0 +1,142 @@
+notation: a,b = sequential; a-b - rock, a+b - roll
+
+idea 1 (basics):
+
+  r s             e i
+a ↓ ↑ t         n ← → o
+         ⇧   ␣
+
+idea 2 (leftnav, righteye):
+
+  r s             e i
+a ↓ ↑ t         n ◉ ◎ o
+←     →  ⇧   ␣
+
+idea 3 (bs-enter):
+
+   r s             e i
+ a ↓ ↑ t         n ← → o
+⌫      ◎  ⇧   ␣  ◉     ↵
+
+
+curved home row
+⇧ is both a hold-mod (for stay-in-layer stuff) and a tap-shift
+␣ is both a hold-mod (for stay-in-layer stuff) and a tap-space
+home row and space are modifiers themselves and only output on release
+rolls roll though, only rocks (back-and-forth) form new combos
+same-key rocks are preferred
+arrows aren't modifiers and have key repeat
+
+
+--- let's focus on the basics one first ---
+
+  r s             e i        more compact
+a ↓ ↑ t         n ← → o    --------------->  a r s t      n e i o
+         ⇧   ␣                                 ↓ ↑   ⇧  ␣   ← →
+
+
+⇧,⇧ is ??? (window focus toggle? workspace toggle? one-handed mode? eyetracker clicking? caps lock? shift lock? reserved for future use?)
+⇧-␣ is enter, ⇧+␣ is (underscore is wasteful @ 0.23%)
+␣-⇧ is backspace, needs key repeat
+
+⇧-←, ⇧-→ are move-by-word, needs key repeat
+⇧+←, ⇧+→ are ???
+⇧-↓, ⇧-↑ are ???
+⇧+↓, ⇧+↑ are home-end
+␣-↓, ␣-↑ are page up / page down, need key repeat
+␣-←, ␣-→ rocks are ???  (eat-word and tab?)
+
+freq        6  5-4 3.8 3.5 2.8 2.4 2 - 1.7 1.6 1.5 1.2    1   .9 .8
+76%  6-0.8: ␣ ↵ ↑↓ e⌫  itw osn ar  ←c→d⤒⤓: lp  gu  ⎋ h ⌦  xym -  b
+            ^  ^^^ ^^  ^^^ ^^^ ^^  ^^^^^^  ^^   ^      ^
+84% .7-.5: v f ③ ② / 🅆 S q 🄰 ↹ .
+94% .4-.2: A k ⤓ C 🅄 E ' L 0 T 🄲 z 🅁 , ⤒ 1 V I D W
+98% .2-.09: ⬰  ⇴ _ P O 2 R M * ` 🅅 N " 3 🄵 🅃 F 9 # G 🄱 = H U 🄽 5 )
+
+       normal                 tap-shifted
+ a  r  s  t         n  e  i  o  |  A  R  S  T         N  E  I  O
+    ↓  ↑     ⇧   ␣     ←  →     |     ⤒  ⤓     ⇧   ⎈     ·  ·
+
+ ☰ al  ·  ·         ·  ·  ·  ·  |  ☰ Al  ·  ·         ·  ·  ·  ·
+    ·  ·     ·   ·     <  >     |     ·  ·               <  >
+
+ ·  ☰  c  w         ·  ·  · co  |  ·  ☰  C  W         ·  ·  · Co
+    ·  ·     ·   ·     [  ]     |     ·  ·     ·   ·     ·  ·
+
+ ·  l  ☰  d         ·  ·  ·  ·  |  ·  ·  ☰  D         ·  ·  ·  ·
+    ·  z     ·   ·     (  )     |     ·  Z     ·   ·     ·  ·
+
+ ·  ·  p  ☰        th the ·  ·  |  ·  ·  P  ☰        Th The ·  ·
+    ·  ·     ·   ·     {  }     |     ·  ·     ·   ·     ·  ·
+
+ha  ·  · nd␣        ☰ he  ·  ·  | Ha  ·  ·  nd        ☰ He  ·  ·
+    ·  ·     ·   ·     ·  ·     |     ·  ·     ·   ·     ·  ·
+
+ ·  ·  · ed␣        h  ☰  ·  ·  |  ·  ·  · ed         H  ☰  ·  ·
+    ·  ·     ·   ·     ·  ·     |     ·  ·     ·   ·     ·  ·
+
+ ·  ·  ·  ·        ing u  ☰  ·  |  ·  ·  ·  ·        ing U  ☰  ·
+    ·  ·     ·   ·     ·  j     |     ·  ·     ·   ·     ·  J
+
+ ·  ·  ·  ·         · ou  ·  ☰  |  ·  ·  ·  ·         · ou  ·  ☰
+    ·  ·     ·   ·     ·  ·     |     ·  ·     ·   ·     ·  ·
+
+[·  ·  ·  ·         ·  ·  ·  ·] | [·  ·  ·  ·         ·  ·  ·  ·]
+    ⇟  ⇞     ☰   ↵     ⇺  ⇻     |     ⤓  ⤒     ☰   ·     ·  ·
+
+[   custom          controls  ] |  9  3  1  5         4  0  2  8
+    ⇟  ⇞     ⌫   ☰     ⇍  ⌦     |     7  ·     ⌫   ☰     .  6
+
+'[arstneio],space,up,down,left,right,enter,backspace' = 53.5%
+
+[arst] - [←→] = various brackets, with popularity based on finger strength
+⇟ ⇞ ⇺ ⇻ ⤓ ⤒ ⇍ ⌦
+⇟ ⇞ again
+s - ↑ = z because 1) mnenonics 2) 2nd rarest letter 3) same-finger is hard
+i - → = j because 1) mnenonics 2) rarest letter 3) same-finger is hard
+⇧ - ↑↓ = page up/down, but ␣ - ↑↓ are tmux page up/down (when in term)
+␣ - arstneio = WM- or app- specific controls (spammables)
+⇧ - arstneio = WM- or app- specific controls (spammables)
+⇧ + ␣ = more controls (non-spammables)
+  (how about ^A ^R ^C ^D   ^L ^U ^? ^Z in the terminal,
+             ^A ^R ^S ^T   ^N ^W ^Q ^F in GUI apps?)
+⇧ + ␣ + ⇧ = combo mode
+⇧ + ␣ - ? = digits while ␣ is held. '.' is also available, ⌫  (vanilla, pity)
+i - n = ing␣ because popular trigram and almost always ends the word (no caps tho)
+⇧ + i - n = ing (IDK how good is that idea)
+e - n = h (1.2) because 1) inward curl 2) strong finger. ngrams matter a lot:
+ n - e = he because 'he' (.32) is 2x more popular than its 'the' subset
+ n - a = ha because 'ha' is also .16
+ t - n = th because 'th' is .37, 2.3x more popular than its 'the' subset!
+ s - n = sh because it's .22
+r - s = c (1.9) because 1) inward curl 2) strong finger, consonant-y
+ r - o = co because it's .31!
+s - r = l (1.5) because 1) consonantey, pairs with vowels
+                  2) strong finger, inwards though
+ a - r = al (1.9) because 1) a is left-hand 2) mnemonic
+r - t = w because 1) inward rock 2) rightwards motion 3) w is more than half
+                  vi: w, vi: :w. Will be less used with ⇻ and ⇍ instead of ^W
+s - t = d because 1) inward rock 2) strong finger 3) consonant-y
+ e - t = ed␣ (.25), ⇧ + e - t = ed (not sure how good the space idea is)
+ n - t = nd (.13) - first to go away if needed
+t - s = p - pairs with vowels and with r as 'pr'
+i - e = u - pairs with consonants and with o as 'ou'
+ o - e = ou
+ o - t = ould?
+? = g
+
+
+ma bigram (.30)
+pe bigram (.26)
+ed bigram (.25)
+op bigram (.23)
+ng bigram (.23, but must be handled by 'ing')
+r-n = ch? (.17)
+
+li bigram (.20)
+le bigram (.20)
+ol bigram (.20)
+al bigram (.20)
+
+
+␣ ↵ ↑↓t⌫ ⤓⇟⤒⇞ → ← ⌧ ⌦ ↹ ⇺ ⇻ ⇍ ⇏ ⎋
