@@ -48,7 +48,7 @@ a ↓ ↑ t         n ← → o    --------------->  a r s t      n e i o
 
 freq        6  5-4 3.8 3.5 2.8 2.4 2 - 1.7 1.6 1.5 1.2    1   .9 .8
 76%  6-0.8: ␣ ↵ ↑↓ e⌫  itw osn ar  ←c→d⤒⤓: lp  gu  ⎋ h ⌦  xym -  b
-            ^  ^^^ ^^  ^^^ ^^^ ^^  ^^^^^^  ^^   ^      ^
+            ^  ^^^ ^^  ^^^ ^^^ ^^  ^^^^^^  ^    ^    ^ ^
 84% .7-.5: v f ③ ② / 🅆 S q 🄰 ↹ .
 94% .4-.2: A k ⤓ C 🅄 E ' L 0 T 🄲 z 🅁 , ⤒ 1 V I D W
 98% .2-.09: ⬰  ⇴ _ P O 2 R M * ` 🅅 N " 3 🄵 🅃 F 9 # G 🄱 = H U 🄽 5 )
@@ -57,28 +57,28 @@ freq        6  5-4 3.8 3.5 2.8 2.4 2 - 1.7 1.6 1.5 1.2    1   .9 .8
  a  r  s  t         n  e  i  o  |  A  R  S  T         N  E  I  O
     ↓  ↑     ⇧   ␣     ←  →     |     ⤒  ⤓     ⇧   ⎈     ·  ·
 
- ☰ al  ·  ·         ·  ·  ·  ·  |  ☰ Al  ·  ·         ·  ·  ·  ·
-    ·  ·     ·   ·     <  >     |     ·  ·               <  >
+ ☰ al  q  x         · Qu  ·  ·  |  ☰ Al  Q  ·         · Qu  ·  ·
+    ·  ·     ·   ·     <  >     |     ·  ·     ·   ·     <  >
 
- ·  ☰  c  w         ·  ·  · co  |  ·  ☰  C  W         ·  ·  · Co
-    ·  ·     ·   ·     [  ]     |     ·  ·     ·   ·     ·  ·
+ v  ☰  p  g         ·  ·  ·  ·  |  V  ☰  P  G         ·  ·  ·  ·
+   l/w ·     ·   ·     [  ]     |    L/W ·     ·   ·     ·  ·
 
- ·  l  ☰  d         ·  ·  ·  ·  |  ·  ·  ☰  D         ·  ·  ·  ·
-    ·  z     ·   ·     (  )     |     ·  Z     ·   ·     ·  ·
+ f  m  ☰  d         ·  ·  · co  |  F  M  ☰  D         ·  ·  · Co
+    · c/z    ·   ·     (  )     |     · C/Z    ·   ·     ·  ·
 
- ·  ·  p  ☰        th the ·  ·  |  ·  ·  P  ☰        Th The ·  ·
+ ↹  k  b  ☰        th the ·  ·  |  ·  K  B  ☰        Th The ·  ·
     ·  ·     ·   ·     {  }     |     ·  ·     ·   ·     ·  ·
 
-ha  ·  · nd␣        ☰ he  ·  ·  | Ha  ·  ·  nd        ☰ He  ·  ·
+ha  ·  · nd␣        ☰ he  ·  ·  | Ha  ·  · nd         ☰ He  ·  ·
     ·  ·     ·   ·     ·  ·     |     ·  ·     ·   ·     ·  ·
 
- ·  ·  · ed␣        h  ☰  ·  ·  |  ·  ·  · ed         H  ☰  ·  ·
-    ·  ·     ·   ·     ·  ·     |     ·  ·     ·   ·     ·  ·
+ · el  · ed␣        h  ☰  .  '  |  · El  · ed         H  ☰  ·  "
+    ·  ·     ·   ·    u/, ·     |     ·  ·     ·   ·    U/· ·
 
- ·  ·  ·  ·        ing u  ☰  ·  |  ·  ·  ·  ·        ing U  ☰  ·
-    ·  ·     ·   ·     ·  j     |     ·  ·     ·   ·     ·  J
+ ·  ·  ·  ·        ing -  ☰  :  |  ·  ·  ·  ·        ing _  ☰  ;
+    ·  ·     ·   ·     · y/j    |     ·  ·     ·   ·     · Y/J
 
- ·  ·  ·  ·         · ou  ·  ☰  |  ·  ·  ·  ·         · ou  ·  ☰
+ · ol  · ould␣      · ou  ·  ☰  |  · Ol  · ould       · Ou  ·  ☰
     ·  ·     ·   ·     ·  ·     |     ·  ·     ·   ·     ·  ·
 
 [·  ·  ·  ·         ·  ·  ·  ·] | [·  ·  ·  ·         ·  ·  ·  ·]
@@ -92,8 +92,6 @@ ha  ·  · nd␣        ☰ he  ·  ·  | Ha  ·  ·  nd        ☰ He  ·  ·
 [arst] - [←→] = various brackets, with popularity based on finger strength
 ⇟ ⇞ ⇺ ⇻ ⤓ ⤒ ⇍ ⌦
 ⇟ ⇞ again
-s - ↑ = z because 1) mnenonics 2) 2nd rarest letter 3) same-finger is hard
-i - → = j because 1) mnenonics 2) rarest letter 3) same-finger is hard
 ⇧ - ↑↓ = page up/down, but ␣ - ↑↓ are tmux page up/down (when in term)
 ␣ - arstneio = WM- or app- specific controls (spammables)
 ⇧ - arstneio = WM- or app- specific controls (spammables)
@@ -109,29 +107,59 @@ e - n = h (1.2) because 1) inward curl 2) strong finger. ngrams matter a lot:
  n - a = ha because 'ha' is also .16
  t - n = th because 'th' is .37, 2.3x more popular than its 'the' subset!
  s - n = sh because it's .22
-r - s = c (1.9) because 1) inward curl 2) strong finger, consonant-y
- r - o = co because it's .31!
-s - r = l (1.5) because 1) consonantey, pairs with vowels
-                  2) strong finger, inwards though
- a - r = al (1.9) because 1) a is left-hand 2) mnemonic
-r - t = w because 1) inward rock 2) rightwards motion 3) w is more than half
-                  vi: w, vi: :w. Will be less used with ⇻ and ⇍ instead of ^W
+s - ↑ = c (1.9) because 1) mnemonic 2) strong finger 3) consonant-y
+s + ↑ = z (0.25) because
+  1) mnemonics 2) rare 3) that single-finger roll is gonna be hard on laptops
+s - o = co (it's .31! zo is .13)
+r - ↓ = l (1.5) because
+  1) consonantey, pairs with vowels
+  2) single-finger double-press (I hope I won't regret it on laptops!)
+  a - r = al (1.9) because 1) a is left-hand 3) it's hard to l
+  o - r = ol (1.9) because it's hard to l
+  e - r = el (1.3) because it's hard to l
+  ? what about il (.6) and some ul (.8)?
+r + ↓ = w because 1) mnemonics 2) keeping it on the middle finger
+
+  current w is more than half vi: w, vi: :w.
+  it will be less used with ⇻ instead of w and ⇍ instead of ^W (I hope!)
 s - t = d because 1) inward rock 2) strong finger 3) consonant-y
  e - t = ed␣ (.25), ⇧ + e - t = ed (not sure how good the space idea is)
  n - t = nd (.13) - first to go away if needed
-t - s = p - pairs with vowels and with r as 'pr'
-i - e = u - pairs with consonants and with o as 'ou'
+e - ← = u (.18) - 1) strongest single-finger rock, vowel-y
  o - e = ou
- o - t = ould?
-? = g
+ o - t = ould
+e + ← = ,␣
+i - → = y (1.0) because 1) mnemonic 2) vowel
+  r - i = ly (.06) because both l and y are hard
+i + → = j (.06) because rarest letter
+i - e = u - pairs with consonants and with o as 'ou'
+  o - e = ou (.18)
+  o - t = ould, because ou, l and d are hard
+r - s = p (1.6) - pairs with vowels (`pr` sounds bad though)
+t - s = b (.7, pairs with b,a,e,u,l)
+s - r = m (1.0, pairs with vowels, itself, p)
+r - a = f (.7)
+s - a = v (.7)
+r - t = g (1.5, but half of them is `git` + ~10% are `ing`)
+a - s = q (.6)
+  a - e = qu
+t - r = k (.4)
+a - t = x (1.0, but lots of them are :x)
+t - a = tab
+i - o = : / ;
+i - e = - / _
+e - o = ' / "
+o - i = ⎋
+?t - i = tion
+?r - i = ve (.07)
 
 
-ma bigram (.30)
-pe bigram (.26)
+ma bigram (.30) - this one is bad
+pe bigram (.26)
 ed bigram (.25)
 op bigram (.23)
 ng bigram (.23, but must be handled by 'ing')
-r-n = ch? (.17)
+s-n = ch? (.17)
 
 li bigram (.20)
 le bigram (.20)
