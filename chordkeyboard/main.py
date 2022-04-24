@@ -14,14 +14,14 @@ L = f'/dev/input/by-id/usb-www.BeyondQ.com_DuMang_KeyBoard_DK6_{IDL}-event-kbd'
 R = f'/dev/input/by-id/usb-www.BeyondQ.com_DuMang_KeyBoard_DK6_{IDR}-event-kbd'
 
 REAL_MAP = {
-    ec.KEY_Z: 'a',
+    ec.KEY_A: 'a',
     ec.KEY_S: 'r',
     ec.KEY_D: 's',
-    ec.KEY_V: 't',
-    ec.KEY_N: 'n',
+    ec.KEY_F: 't',
+    ec.KEY_J: 'n',
     ec.KEY_K: 'e',
     ec.KEY_L: 'i',
-    ec.KEY_SLASH: 'o',
+    ec.KEY_SEMICOLON: 'o',
     ec.KEY_X: 'down',
     ec.KEY_C: 'up',
     ec.KEY_COMMA: 'left',
